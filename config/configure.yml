@@ -1,0 +1,20 @@
+## Module configure config
+---
+opt1:
+    type: textInput
+    conf:
+        text: OPT1
+        icon: calendar
+        size: lg
+opt2:
+    type: textInput
+    conf:
+        text: OPT2
+        icon: archway
+        size: lg
+opt3:
+    type: textInput
+    conf:
+        text: OPT3
+        icon: award
+        size: lg

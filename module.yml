@@ -1,0 +1,23 @@
+## Module config file
+---
+key: nkorg/example
+author: imagine
+name: FPCM 5.x Module example
+description: "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat."
+link: https://nobody-knows.org/
+version: 5.3.0-a2
+help: hl_example
+useDataFolder: true
+changelogUrl: changelog.txt
+requirements:
+    system: 5.3.0-dev
+    php: 8.0.0
+tables:
+configOptions:
+    opt1: 1
+    opt2: 2
+    opt3: 3
+    opt5: 5
+    opt6: 6
+crons:
+    testing: 3600
