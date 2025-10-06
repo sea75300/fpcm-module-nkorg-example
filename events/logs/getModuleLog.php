@@ -21,7 +21,7 @@ final class getModuleLog extends \fpcm\modules\nkorg\example\events\eventBase {
             function($item) {
                 return new \fpcm\components\dataView\row([
                     new \fpcm\components\dataView\rowCol('time', $item['time'], 'fpcm-ui-dataview-align-self-start'),
-                    new \fpcm\components\dataView\rowCol('text', new \fpcm\view\helper\escape($item['text']), 'pre-box'),
+                    new \fpcm\components\dataView\rowCol('text', new \fpcm\view\helper\escape($item['text']), 'pre-box font-monospace'),
                 ]);
             });
             
