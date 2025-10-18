@@ -6,12 +6,11 @@ final class dashboardContainersLoad extends \fpcm\modules\nkorg\example\events\e
 
     public function run() : \fpcm\module\eventResult 
     {
-        $this->data[] = '\fpcm\modules\nkorg\example\models\container';
-        
         $this->logEvent(__METHOD__);
         $this->logEvent($this->data);
         
-        return (new \fpcm\module\eventResult())->setData($this->data);
+        $this->data->addContainer('models\container');
+        return (new \fpcm\module\eventResult())->setData($this->data);   
     }
 
 }
